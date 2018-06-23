@@ -1,0 +1,24 @@
+{
+  "basics":{
+    "name":"sruthi",
+    "email":"kotasruthi84@gmail.com",
+    "mobile":"+91-8555819069"
+  },
+  "education":[
+    {
+      "degree":"B-Tech",
+      "institute":"PSCMR",
+      "data":["2014-18","79%"]
+    },
+  {
+    "degree":"Intermediate/Diploma",
+    "institute":"Sri Chaitanya Junior College",
+    "data":["2012-14","93%"]
+},
+{
+  "degree":"S.S.C",
+  "institute":"S.T.B.E.M.High School",
+  "data":["2012-13","90%"]
+}
+]
+}

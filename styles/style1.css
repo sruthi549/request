@@ -1,10 +1,14 @@
+a{
+  text-decoration:none;
+}
 .main{
   display:flex;
   flex-direction:row;
+  /*flex-wrap:wrap;*/
   justify-content:center;
 }
 .child1{
-width:30%;
+max-width:100%;
 border:1px solid #000;
 border radius:15px;
 box-shadow:3px 3px 3px #000;
@@ -13,11 +17,116 @@ margin:2%;
 background-color: skyblue;
 }
 .child2{
-width:70%;
+max-width:100%;
 border:1px solid #000;
 border radius:15px;
 box shadow:3px 3px 3px #000;
 padding:2%;
 margin:2%;
 background-color: orange
+}
+img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+h1{
+  text-align:center;
+}
+h2
+{
+  text-align:center;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  a{
+    font-size:24px;
+  }
+.main{
+  display:flex;
+  flex-direction:column;
+  /*flex-wrap:wrap;*/
+  justify-content:center;
+}
+child1{
+max-width:100%;
+border:1px solid #000;
+border radius:15px;
+box-shadow:3px 3px 3px #000;
+padding:2%;
+margin:2%;
+background-color: skyblue;
+}
+.child2{
+max-width:100%;
+border:1px solid #000;
+border radius:15px;
+box shadow:3px 3px 3px #000;
+padding:2%;
+margin:2%;
+background-color: orange;
+
+}
+}
+@media only screen and (min-width:481px) and (max-width:768px)
+*{
+  font-size:24px;
+}
+.main
+{
+  display:flex;
+  flex-direction:column;
+  /*flex-wrap:wrap;*/
+  justify-content:center;
+}
+child1{
+max-width:100%;
+border:1px solid #000;
+border radius:15px;
+box-shadow:3px 3px 3px #000;
+padding:2%;
+margin:2%;
+background-color: skyblue;
+}
+.child2{
+max-width:100%;
+border:1px solid #000;
+border radius:15px;
+box shadow:3px 3px 3px #000;
+padding:2%;
+margin:2%;
+background-color: orange;
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+*{
+  font-size:30px;
+}
+.main
+{
+  display:flex;
+  flex-direction:column;
+  /*flex-wrap:wrap;*/
+  justify-content:center;
+}
+.child1{
+max-width:100%;
+border:1px solid #000;
+border radius:15px;
+box-shadow:3px 3px 3px #000;
+padding:2%;
+margin:2%;
+background-color: skyblue;
+}
+.child2{
+max-width:100%;
+border:1px solid #000;
+border radius:15px;
+box shadow:3px 3px 3px #000;
+padding:2%;
+margin:2%;
+background-color: orange;
+}
 }
