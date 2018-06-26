@@ -4,8 +4,11 @@
     "email":"kotasruthi84@gmail.com",
     "mobile":"+91-8555819069"
   },
-  "education":[
-    {
+  "carrer":{
+    "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization."
+  },
+    "educations":[
+      {
       "degree":"B-Tech",
       "institute":"PSCMR",
       "data":["2014-18","79%"]
@@ -19,6 +22,32 @@
   "degree":"S.S.C",
   "institute":"S.T.B.E.M.High School",
   "data":["2012-13","90%"]
+}
+],
+"achievements":[
+  {
+    "name":"awarde as <b>1<sup>st</sup>Prized</b> in <q> self-Defence</q>"
+  },
+  {
+  "name":"got <strong>1<sup>st</sup>Prized</strong> for <q> PPT Presentation </q>"
+}
+],
+"skills":[
+{
+  "name":"programming languages",
+  "data":["c","java","php","python","c++","javascript"]
+},
+{
+"name":"Databases",
+"data":["MySql","oracle"]
+},
+{
+  "name":"Web technologies",
+  "data":["HTML","CSS",",javascript"]
+},
+{
+  "name":"Libraries",
+  "data":["jquery","codeigniter"]
 }
 ]
 }
